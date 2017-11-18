@@ -16,6 +16,7 @@ public class BynaryTest {
         assertEquals(set,tree.subSet(999,999));
         List<Integer> list = Arrays.asList(5,2,1,4);
         set.addAll(list);
+
         assertEquals(set,tree.subSet(1,6));
     }
 
